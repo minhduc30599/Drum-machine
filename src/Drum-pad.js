@@ -47,11 +47,8 @@ class Drumpad extends React.Component {
     // volume change logic, volume icon display logic
     onVolumeChanged({ target }) {
         const value = Number.parseInt(target.value, 10);
-        // const volumeHandlerElm = this.volumeHandler.current;
         const iconVolumeElm = this.iconVolume.current;
         const displayVolumeValueElm = this.displayVolumeValue.current;
-    
-        // volumeHandlerElm.style.setProperty('--val', value);
     
         if (value === 0) iconVolumeElm.className = "fa fa-volume-off";
         else if (value < 50) iconVolumeElm.className = "fa fa-volume-down";
