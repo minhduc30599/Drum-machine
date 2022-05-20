@@ -1,0 +1,21 @@
+.drumpad-button {
+    display: block;
+    text-align: center;
+    background-color: white;
+    color: white;
+    flex: 1 1 calc(33.3333% - 10px);
+    width: 33.3333%;
+    border: 1px solid cyan;
+    border-radius: 5px;
+    margin: 0 3px 8px 3px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.drumpad-button:hover {
+    color: black;
+}
