@@ -5,7 +5,7 @@
     color: white;
     flex: 1 1 calc(33.3333% - 10px);
     width: 33.3333%;
-    border: 1px solid cyan;
+    border: 1px solid mediumaquamarine;
     border-radius: 5px;
     margin: 0 3px 8px 3px;
     height: 60px;
@@ -14,8 +14,8 @@
     cursor: pointer;
     font-weight: 900;
     font-size: 30px;
-}
-
-.drumpad-button:hover {
+  }
+  
+  .drumpad-button:hover {
     color: black;
-}
+  }
